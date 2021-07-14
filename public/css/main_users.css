@@ -1,0 +1,268 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
+}
+
+
+
+.nav-link{
+	color: #354242!important;
+    font-weight: 600!important;
+    text-transform: uppercase!important;
+}
+
+.nav-link:hover {
+	border-bottom: 1px solid red;
+}
+
+.dropdown-item {
+	color: #354242!important;
+    font-weight: 600!important;
+    text-transform: uppercase!important;
+}
+.dropdown-item:hover {
+	border-bottom: 2px solid red;
+}
+
+.navbar {
+	background-color: white!important;
+	border-bottom: 1px solid #e0e3e5;
+}
+
+.position{
+	width: 100%;
+	position: fixed;
+	right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
+.footer{
+	text-align: center;
+	color: white;
+	background-color: #FFC312;
+	font-weight: bold;
+	font-size: 16px;
+	height: 50px;
+	padding-top: 15px;
+}
+
+.session-close:hover{
+	background-color: #DA3F60; 
+}
+
+.main-container{
+	padding-top: 130px;
+}
+
+@media (max-width: 770px) {
+  .main-container {
+    padding-top: 150px;
+  }
+}
+
+.card{
+	width: 500px;
+	margin-bottom: 20px;
+}
+
+.main_btn{
+color: black;
+background-color: #FFC312;
+width: 120px;
+}
+
+.main_btn:hover{
+color: black;
+background-color: #E43C5C;
+}
+
+.input-group-prepend span{
+	width: 50px;
+	background-color: #FFC312;
+	color: black;
+	border:0 !important;
+}
+
+.input-container{
+	margin-bottom: 1rem;
+}
+
+.input-error-message{
+	color: red;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.form-group{
+	margin-bottom: 0px;
+}
+
+
+
+.result-error{
+	padding: 5px;
+	color: red;
+	border: 1px solid red;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	background-color: #FFEDED;
+}
+
+.result-success{
+	padding: 5px;
+	color: green;
+	border: 1px solid green;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	background-color: #E9FCFA;
+
+}
+
+.result-process{
+	padding: 5px;
+	color: gray;
+	border: 1px solid gray;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.exit{
+    width: 100%;
+    float: right;
+    cursor: pointer;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.exit:hover{
+    text-shadow: 1px 1px #000000;
+}
+
+.label-title{
+	color: red;
+	font-size: 13px;
+	text-align: center;
+	width: 100%;
+    font-weight: bold;
+}
+
+.btn-confirm{
+	background-color: #FFC312;
+}
+
+.confirm-pass{
+	color: #e43e3e;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.free-pay{
+	position: absolute;
+    top: 70px;
+    left: 10px;
+    width: 99%;
+    text-align: justify;
+    border-radius: 10px;
+    border: 2px solid #103680;
+    padding: 5px;
+    background-color: #0199DB;
+    font-weight: bold;
+    color: white;
+
+}
+
+.location{
+	text-align: justify;
+}
+.location-container{
+	width: 100%;
+	height: 300px;
+	overflow: auto;
+	border: 1px solid;
+}
+
+.routes-detail-container{
+	width: 100%;
+	height: 300px;
+	overflow: auto;
+	border: 1px solid;
+}
+
+thead{
+    background-color: #4471C3;
+    color: white;
+    text-align: left;
+}
+
+tfoot{
+    background-color: #D9E1F3;
+    color: black;
+    text-align: left;
+}
+
+.header-table{
+	text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 10px;
+    background: #FFC312;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.process-table{
+	text-align: center;
+	font-size: 40px;
+	color: #BDBDBD;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+.process-table i{
+	font-size: 60px;
+}
+
+.up {
+    background: #fef051;
+    background-image: -webkit-linear-gradient(top, #fef051, #b8ab16);
+    background-image: -moz-linear-gradient(top, #fef051, #b8ab16);
+    background-image: -ms-linear-gradient(top, #fef051, #b8ab16);
+    background-image: -o-linear-gradient(top, #fef051, #b8ab16);
+    background-image: linear-gradient(to bottom, #fef051, #b8ab16);
+    padding:10px;
+    font-size:50px;
+    color:black;
+    cursor:pointer;
+    position: fixed;
+    bottom:20px;
+    right:5px;
+    z-index: 100;
+    border: 1px solid white;
+    opacity: .6;
+    border-radius: 20px;
+}
+
+.up:hover{
+    opacity: 1;
+}
